@@ -27,8 +27,10 @@ download() {
   mkdir -p "$output_dir"
   output_file="$output_dir/$name"
 
-  echo "Downloading video in quality $quality from $url"
-  wget --no-clobber --no-check-certificate "$url" -O "$output_file" || rm "$output_file"
+  if [ ! -f "$output_file" ]; then
+    echo "Downloading video in quality $quality from $url"
+    wget --no-check-certificate "$url" -O "$output_file" || rm "$output_file"
+  fi
 }
 
 
