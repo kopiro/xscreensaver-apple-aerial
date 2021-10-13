@@ -6,13 +6,13 @@ It supports all possible video qualities that Apple provides: H264, 1080 (SDR/HD
 
 ## Dependencies
 
-```sh
+```bash
 apt install -y vlc jq xscreensaver
 ```
 
 ### Installation
 
-```
+```bash
 # Clone this repo
 git clone https://github.com/kopiro/xscreensaver-apple-aerial /usr/local/src/xscreensaver-apple-aerial
 
@@ -28,7 +28,7 @@ Add this line `"Apple Aerial" apple-aerial \n\` in the `programs` section in the
 
 In the beginning, and to download the updated list of the videos, just run:
 
-```sh
+```bash
 /usr/lib/xscreensaver/apple-aerial --upgrade
 ```
 
