@@ -2,7 +2,7 @@
 
 Apple TV Aerial screensaver on XScreensaver for Linux, optimized for Raspberry Pi.
 
-It supports all possible video qualities that Apple provides: H264, 1080 (SDR/HDR) and 4K (SDR/HDR).
+It supports all possible video qualities that Apple provides: H264, 1080 (SDR/HDR) and 4K (SDR/HDR); and and upgradable list of the videos.
 
 ## Dependencies
 
