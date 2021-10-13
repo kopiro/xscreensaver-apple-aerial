@@ -15,6 +15,7 @@ with some improvements, specifically:
 git clone https://github.com/kopiro/xscreensaver-apple-aerial /usr/local/src/xscreensaver-apple-aerial
 cd /usr/local/src/xscreensaver-apple-aerial
 ln -svf /usr/local/src/xscreensaver-apple-aerial/main.sh /usr/lib/xscreensaver/apple-aerial
+chmod +x /usr/lib/xscreensaver/apple-aerial
 ```
 
 Add this line `"Apple Aerial" apple-aerial \n\` in the `programs` section in the file `~/.Xscreensaver`
