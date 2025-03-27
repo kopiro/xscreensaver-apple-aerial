@@ -18,6 +18,7 @@ git clone https://github.com/kopiro/xscreensaver-apple-aerial /usr/local/src/xsc
 
 # Create a link of the main script to the xscreensaver dir
 cd /usr/local/src/xscreensaver-apple-aerial
+# Change the following target path to /usr/libexec/xscreensaver/apple-aerial for a Debian based system:
 ln -svf /usr/local/src/xscreensaver-apple-aerial/main.sh /usr/lib/xscreensaver/apple-aerial
 chmod +x /usr/lib/xscreensaver/apple-aerial
 ```
